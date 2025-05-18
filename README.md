@@ -21,7 +21,7 @@ Ensure you have the following dependencies installed:
    ```bash
    pip install pygame
 
-How to Play
+## How to Play
 - Press Space or Up Arrow to make the bird flap.
 - Navigate through the pipes without hitting them.
 - Each successful pass increases your score.
