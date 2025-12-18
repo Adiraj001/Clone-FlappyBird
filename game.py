@@ -84,7 +84,7 @@ class Game:
             self.clock.tick(60)
     
     def check_score(self):
-        """Updates score when the bird successfully passes a pipe."""
+        
         if len(self.pipe) > 0:
             if (self.bird.rect.left > self.pipe[0].rect_down.left and
             self.bird.rect.right < self.pipe[0].rect_down.right and not self.startmonitoring):
