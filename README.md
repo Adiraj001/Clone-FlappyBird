@@ -29,7 +29,7 @@ You can install all dependencies via `requirements.txt` after creating a virtual
 
 ```bash
 conda create -n pygame python=3.13.5 -y
-conda activate pygame
+
 ```
 
 
@@ -38,13 +38,7 @@ conda activate pygame
 * **Windows:**
 
 ```bash
-venv\Scripts\activate
-```
-
-* **macOS / Linux:**
-
-```bash
-source venv/bin/activate
+conda activate pygame
 ```
 
 ### 4. Install dependencies using `requirements.txt`
